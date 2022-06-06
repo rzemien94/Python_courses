@@ -1,0 +1,6 @@
+Action FILE_CREATE executed on F:\Users\rzemi\Desktop\KursyPython\PythonSrednioZaawansowany\dummy_file.txt on 2022-06-03 13:59:46
+Action FILE_CREATE executed on F:\Users\rzemi\Desktop\KursyPython\PythonSrednioZaawansowany\dummy_file.txt on 2022-06-03 13:59:46
+Action FILE_CREATE executed on F:\Users\rzemi\Desktop\KursyPython\PythonSrednioZaawansowany\dummy_file.txt on 2022-06-04 09:31:29
+Action FILE_CREATE executed on F:\Users\rzemi\Desktop\KursyPython\PythonSrednioZaawansowany\dummy_file.txt on 2022-06-04 09:31:29
+Action FILE_CREATE executed on F:\Users\rzemi\Desktop\KursyPython\PythonSrednioZaawansowany\dummy_file.txt on 2022-06-04 09:31:46
+Action FILE_CREATE executed on F:\Users\rzemi\Desktop\KursyPython\PythonSrednioZaawansowany\dummy_file.txt on 2022-06-04 09:31:46
