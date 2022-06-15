@@ -18,7 +18,7 @@ def show_cake_info(cake):
 print(show_cake_info(cake2))
 
 
-cakes=[cake1,cake2]
+cakes = [cake1,cake2]
 for cake in cakes:
     show_cake_info(cake)
 
