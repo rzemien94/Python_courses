@@ -34,11 +34,11 @@ Login Page
               <form action="" method="post">
                 {% csrf_token %}
                 <div class="form-group">
-                    <input type="email" name="email" class="form-control" id="name" placeholder="Your Email">
+                    <input type="text" name="username" class="form-control" id="username" placeholder="Your Username">
                     <div class="validate"></div>
                 </div><br>
                 <div class="form-group">
-                    <input type="password" name="password" class="form-control" id="name" placeholder="Your Password">
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Your Password">
                     <div class="validate"></div>
                 </div><br>
                 <small>Forget Password <a href="{% url 'forget_password' %}">Password</a></small>
