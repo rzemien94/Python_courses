@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
-from django.contrib.auth import authenticate,login
+from django.contrib.auth import authenticate,login,logout
+from django.contrib import messages
 
 # Create your views here.
 def authlogin(request):
@@ -11,9 +12,14 @@ def authlogin(request):
             login(request,user)
             return redirect('profile')
         else:
-            print('Invalid username or password')
+            messages.error(request, 'Email or password invalid!')
 
     return render(request,'authentication/login.html')
+
+def authlogout(request):
+    logout(request)
+    messages.success(request, 'Logout successfully!') 
+    return redirect('login')
 
 def authregistration(request):
     return render(request,'authentication/registration.html')

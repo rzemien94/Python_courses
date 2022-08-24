@@ -35,12 +35,14 @@ Profile Page
               <div class="info-wrap">
                 <div class="row">
                   <div class="col-lg-4 info">
+
                     <h4>Name:</h4>
+                    <p>Login By <b>{{ user.username }}</b></p>
 
                   </div>
 
                   <div class="col-lg-6 info mt-6 mt-lg-0">
-                    <p><a href="#">Logout:</a></p>
+                    <p><a href="{% url 'logout' %}">Logout:</a></p>
 
                   </div>
                 </div>
