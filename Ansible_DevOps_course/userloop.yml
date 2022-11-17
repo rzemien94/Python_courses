@@ -1,0 +1,11 @@
+---
+- name: Create users thru loop
+  hosts: localhost
+  vars:
+    users: [jerry,kramer,eliane]
+  
+  tasks:
+    - name: Create usres
+      user:
+        name: "{{ item }}"
+      with_items: "{{ users }}" 

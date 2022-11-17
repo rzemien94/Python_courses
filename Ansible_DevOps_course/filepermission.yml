@@ -1,0 +1,9 @@
+---
+- name: Change file permissions
+  hosts: all
+
+  tasks:
+    - name: Files permissionsi
+      file:
+        path: /home/mateusz/linux2
+        mode: a+w

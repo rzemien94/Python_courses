@@ -1,0 +1,13 @@
+---
+- name: Copy file from local to remote computer
+  hosts: all
+
+  tasks:
+  - name: Copying file
+    become: true
+    copy:
+      src: /home/mateusz/some.cfg
+      dest: /tmp
+      owner: mateusz
+      group: mateusz
+      mode: 0644
